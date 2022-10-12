@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'ZJLocalizable_Example' do
+  pod 'ZJLocalizable', :path => '../'
+
+  target 'ZJLocalizable_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
