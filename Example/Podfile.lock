@@ -1,0 +1,16 @@
+PODS:
+  - ZJLocalizable (0.1.0)
+
+DEPENDENCIES:
+  - ZJLocalizable (from `../`)
+
+EXTERNAL SOURCES:
+  ZJLocalizable:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZJLocalizable: bad329a9a3e7c4944f94323c4762baf2c76f06f6
+
+PODFILE CHECKSUM: 4ae8171df4b2a43dda59ed406e5f5fcf0beeab46
+
+COCOAPODS: 1.11.2

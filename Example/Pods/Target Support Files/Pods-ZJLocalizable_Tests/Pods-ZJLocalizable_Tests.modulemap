@@ -1,0 +1,6 @@
+framework module Pods_ZJLocalizable_Tests {
+  umbrella header "Pods-ZJLocalizable_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

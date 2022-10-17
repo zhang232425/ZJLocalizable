@@ -1,0 +1,6 @@
+framework module Pods_ZJLocalizable_Example {
+  umbrella header "Pods-ZJLocalizable_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
