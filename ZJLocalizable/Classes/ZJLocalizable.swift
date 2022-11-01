@@ -32,7 +32,7 @@ public extension ZJLocalizable {
         
         let defaultValue = "Unlocalized String"
         
-        var languageBundle = bundle.path(forResource: language, ofType: "lpro").flatMap(Bundle.init)
+        var languageBundle = bundle.path(forResource: language, ofType: "lproj").flatMap(Bundle.init)
         
         if let str = languageBundle?.localizedString(forKey: key, value: defaultValue, table: table), !str.isEmpty {
             return str
